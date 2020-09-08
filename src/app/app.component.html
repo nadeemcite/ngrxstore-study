@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+{{state}}
+<div style="display:flex">
+  <div style="border:1px solid; flex:1">
+    <app-comp1></app-comp1>
+  </div>
+  <div style="border:1px solid; flex:1">
+   <app-comp2></app-comp2>
+  </div>
+</div>
+<input [(ngModel)]="xyz">
+<button (click)="submitXyz()">Change</button>
